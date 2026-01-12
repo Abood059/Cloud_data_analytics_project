@@ -1,0 +1,11 @@
+app_name: "Cloud_ML_Benchmark"
+data_path: "data/order_products__prior.csv"
+sample_rows: 2000000 
+
+mongodb:
+  uri: "mongodb+srv://ah0597414132_db_user:73rflnhd9374jr@cluster0.hv4w5dw.mongodb.net/SparkBenchmarkDB?retryWrites=true&w=majority&appName=Cluster0"
+  db_name: "SparkBenchmarkDB"
+
+kaggle_config:
+  dataset_id: "psparks/instacart-market-basket-analysis"
+  target_file: "order_products__prior.csv"
